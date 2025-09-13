@@ -27,7 +27,7 @@ all the words in the vocabulary.
 
 ## Results
 
-I expected the number of parameters to grow  
+I expected the number of parameters to grow
 linearly in the vocabulary size, or maybe slightly faster.
 The model needs to somehow "store" the full vocabulary list in its weights,
 so on information-theoretic grounds, the number of parameters must grow
