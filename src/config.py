@@ -8,7 +8,7 @@ class Config:
                         # embed_dim must be divisible by num_heads
     attn_layers: int = 4       # 1, 2, 4, 6, 10
     num_heads: int = 2
-    epochs: int = 1000 # 10000 or 20000 recommended.
+    epochs: int = 20000 # 10000 or 20000 recommended.
          # epochs should be a multiple of test_interval
 
     lr: float = 0.1 # Chosen by experiment
