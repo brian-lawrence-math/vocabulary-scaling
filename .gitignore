@@ -1,0 +1,5 @@
+logs/*
+!logs/.gitkeep
+notebooks
+.ipynb_checkpoints
+*.pyc

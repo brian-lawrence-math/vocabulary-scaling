@@ -59,7 +59,9 @@ but overall consistent with linear or slightly superlinear growth.
 The vocabulary has already been generated; it can be found in `data/vocab.txt`.
 The code used to generate it is in `gen_vocab.py`.
 
-To run the experiment, simply run `python src/controller.py > logs/output`.
+To run the experiment you will need to have Pytorch installed.
+
+To run the experiment, simply `cd src` and then run `python controller.py > ../logs/output`.
 Progress will be written to the terminal.
 Detailed results per experiment will be written to log files in `logs/`, and
 when the experiment concludes, a summary will be written to `logs/output`.

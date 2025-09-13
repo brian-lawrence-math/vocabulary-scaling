@@ -1,8 +1,6 @@
 from dataclasses import dataclass
 from typing import Optional
 
-# config I need...
-
 @dataclass
 class Config:
     num_words: int = 1 << 8     # 16, 64, 256, 1024
