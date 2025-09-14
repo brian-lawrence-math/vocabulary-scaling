@@ -42,8 +42,7 @@ in the number of parameters.
 Here are results from two runs of the experiment.
 (The training process is randomized; your results may be slightly different.)
 
-| Vocabulary size | Num parameters needed to learn all items | Parameters per item |
-| | (First run, second run) | |
+| Vocabulary size | Num parameters needed to learn all items (First run, second run) | Parameters per item |
 | -- | -- | -- |
 | 16 | 2053, 2053 | 128, 128 |
 | 64 | 8521, 12913 | 133, 202 |
