@@ -39,14 +39,15 @@ common tokens.
 This requires additional complexity, maybe causing superlinear growth 
 in the number of parameters.
 
-Here are results from one run of the experiment.
+Here are results from two runs of the experiment.
 (The training process is randomized; your results may be slightly different.)
 
 | Vocabulary size | Num parameters needed to learn all items | Parameters per item |
+| | (First run, second run) | |
 | -- | -- | -- |
-| 16 | 2053 | 128 |
-| 64 | 8521 | 133 |
-| 256 | 70081 | 274 |
+| 16 | 2053, 2053 | 128, 128 |
+| 64 | 8521, 12913 | 133, 202 |
+| 256 | 70081, 70081 | 274, 274 |
 | 1024 | N/A | N/A |
 
 With 1024 words, even the largest model (189201 params) did not achieve perfect test performance.
