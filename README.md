@@ -52,7 +52,8 @@ Here are results from two runs of the experiment.
 With 1024 words, even the largest model (189201 params) did not achieve perfect test performance.
 
 The results are noisy -- they vary from experiment to experiment -- 
-but overall consistent with linear or slightly superlinear growth.
+but overall consistent with linear or slightly superlinear growth
+in model size as a function of vocabulary size.
 
 ## Running the experiment
 
